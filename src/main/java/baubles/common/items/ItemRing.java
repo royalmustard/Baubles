@@ -41,7 +41,7 @@ public class ItemRing extends Item implements IBauble
 
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().register((new ItemRing()).setUnlocalizedName("Ring").setRegistryName("ring"));
+		event.getRegistry().register((new ItemRing()).setTranslationKey("Ring").setRegistryName("ring"));
 	}
 
 	@Override
