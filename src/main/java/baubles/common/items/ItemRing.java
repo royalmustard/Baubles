@@ -93,7 +93,7 @@ public class ItemRing extends Item implements IBauble
 	@Override
 	public String getTranslationKey(ItemStack par1ItemStack)
 	{
-		return super.getUnlocalizedName() + "." + par1ItemStack.getItemDamage();
+		return super.getTranslationKey() + "." + par1ItemStack.getItemDamage();
 	}
 
 	@Override
